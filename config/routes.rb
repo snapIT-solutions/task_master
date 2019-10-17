@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  root to: 'home#hello'
+
   resources :users do
     resources :tasks
   end
